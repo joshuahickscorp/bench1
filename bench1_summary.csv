@@ -1,0 +1,6 @@
+model,model_size_gb,n_tasks_run,acc_code_pct,acc_finance_pct,acc_reasoning_pct,accuracy_pct,answered_pct,score_per_gb,thinking_chars_pct,decode_tps_median,chars_per_sec_median,decode_first_q_tps,decode_last_q_tps,decode_decay_pct,prompt_tps_median,ttft_sec_median,mem_peak_gb,mem_delta_gb,token_jitter_p50_ms,token_jitter_p99_ms,token_jitter_ratio,determinism_rate_pct,chars_per_token,verbosity_chars_median
+qwen2.5-coder:7b-instruct,4.7,39,66.67,20.0,40.0,38.46,76.9,8.18,0.0,24.29,52.9,23.45,23.92,-2.0,1441.34,0.047,12.11,0.08,42.03,72.49,1.72,100.0,2.18,22.5
+deepseek-r1:7b,4.7,39,0.0,0.0,0.0,0.0,7.7,0.0,0.0,23.23,78.6,22.93,23.04,-0.5,929.48,0.047,14.31,0.12,43.82,62.86,1.43,100.0,3.38,0.0
+mathstral:7b,4.1,39,100.0,0.0,0.0,23.08,92.3,5.63,0.0,24.9,76.6,24.32,24.65,-1.4,975.94,0.043,13.96,0.11,40.66,47.23,1.16,100.0,3.08,177.5
+qwen3:8b,5.2,39,0.0,0.0,0.0,0.0,0.0,0.0,0,21.62,63.6,21.59,21.58,0.1,1060.46,0.048,14.01,0.15,48.11,73.6,1.53,100.0,2.94,0.0
+granite3.2:8b,4.9,39,33.33,0.0,40.0,23.08,84.6,4.71,0.0,18.57,33.6,17.93,18.15,-1.2,1430.21,0.06,14.93,0.08,55.38,78.65,1.42,100.0,1.81,10.0
